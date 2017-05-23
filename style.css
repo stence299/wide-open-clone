@@ -1,0 +1,132 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.computerpicture
+{
+
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") center top;
+	top: 0;
+	z-index: -1; /*made the top list pop up from image */
+	background-size: cover;
+}
+
+.mobile-nav
+{
+
+}
+.mobile-nav-links
+{
+	list-style-type: none; /* gets rid of bullets */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 30%;
+	padding-right: 10%;
+}
+.mobile-nav-list
+{
+	margin-left : 2em;
+	padding-top: 30px;
+}
+.mobile-nav-link
+{	
+	text-transform: uppercase;
+	text-decoration: none; /*gets rid of underline */
+	color: #fff;
+
+}
+.digitaltext
+{	
+	font-family: sans-serif;
+	color: white;
+	font-size: 25px;
+	display: block; 
+	text-align: center;
+	padding-top: 120px;
+	font-weight: 200;
+}
+.workshoptext
+{
+	font-family: sans-serif;
+	color: white;
+	font-size: 150px;
+	font-weight: 300;
+	text-align: center; 
+}
+.buildinglinedtext
+{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px
+}
+.buildinglinedtext::before
+{	
+	content: "";
+	background: white;
+	height: 10px;
+	width: 15%;
+	position: absolute;
+	left: 10%;
+	top: 55.5%;
+}
+.buildinglinedtext::after
+{	
+	content: "";
+	background: white;
+	height: 10px;
+	width: 15%;
+	position: absolute;
+	right: 10%;
+	top: 55.5%;
+}
+.learnmorebutton
+{
+	background: #bdd426;
+	color: white;
+	font-size: 18px;	
+}
+.learnmorebutton1
+{	
+	width: 80%;
+	display: inline-block;
+	border-radius: 25px;
+	text-align: center;
+	position: absolute;
+	left:10%;
+	top: 75vh;
+	padding: 18px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.about {
+	position: relative;
+	top: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
